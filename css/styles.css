@@ -26,6 +26,7 @@ img {
 }
 .header-container {
     display: flex;
+    justify-content: space-between;
     
 }
 .nav {
@@ -101,12 +102,14 @@ img {
 /* hero section section first*/
 .hero-section {
     background-color: #2E2F42;
-    padding: 188px 0;
-   
+    padding: 188px 0;   
 
 }
 .hero-container {
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 .hero-title {
@@ -249,6 +252,7 @@ img {
     padding: 120px 0 120px 0;      
 }
 .our-portfolio-container {
+   
 
 }
 .our-portfolio-title {
@@ -267,7 +271,8 @@ img {
     row-gap: 48px; 
 }
 .our-portfolio-list {
-    width: calc((100% - 48px)/3); 
+    margin-left: 0px;
+    width: calc((100%-48px)/3); 
 }
 
 .our-portfolio-container {
