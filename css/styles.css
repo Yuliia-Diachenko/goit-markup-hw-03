@@ -277,7 +277,7 @@ img {
 }
 .our-portfolio-list {
     margin-left: 0px;
-    width: calc((100%-48px)/3); 
+    width: calc((100% - 48px)/3);; 
 }
 
 .our-portfolio-container {
