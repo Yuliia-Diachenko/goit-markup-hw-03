@@ -11,19 +11,28 @@ a, ul {
     list-style-type: none;
     text-decoration: none;
 }
+
+ul {
+    padding-left: 0;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
 img {
     display: block;
+}
+.section {
+    padding: 120px 0 120px 0;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;  
   
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -120,8 +129,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-    max-width: 496px;
-  
+    max-width: 496px;  
    
 }
 .hero-button {
@@ -148,7 +156,7 @@ img {
 /* section second */
 .specifics {
     color: #2E2F42;
-    padding: 120px 0;
+    
    
 }
 .specifics-container {
@@ -201,7 +209,7 @@ img {
 }
 .our-team {
     background-color: #F4F4FD; 
-    padding: 120px 0;   
+   
 
 }
 .our-team-title {
@@ -249,12 +257,9 @@ img {
 .our-portfolio {
     color: #2E2F42;
     background-color: #FFFFFF;
-    padding: 120px 0 120px 0;      
+     
 }
-.our-portfolio-container {
-   
 
-}
 .our-portfolio-title {
     text-align: center;
     font-size: 36px;
